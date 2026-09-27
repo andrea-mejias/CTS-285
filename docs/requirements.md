@@ -6,7 +6,7 @@
 - DataMan must allow an authorized employee to update a customer's mailing address.
 - DataMan must allow Priya to generate a weekly correction summary.
 
-Nowadays, students may have little time to use DataMan in certain circumstances. It is important that the session's information is recorded if the session is interrupted. Otherwise, a user will not remember what they once inputted on DataMan and cannot navigate any log page to find their previous actions. 
+Nowadays, students may have little time to use DataMan in certain circumstances. It is important that the session's information is recorded if the session is interrupted. Otherwise, a user will not remember what they once inputted on DataMan and cannot navigate any log page to find their previous actions. The Memory Bank was a feature that was implemented into the original DataMan, which enabled users to look through problems they got correct. There was only a storage limit due to hardware limitations stated on the manual section, but when DataMan is implemented onto a website, the open storage is larger in this day and age. When using Priya, it must be used ethically and checked for any mistakes along the run.
 
 # Non-Functional Requirements
 - Customer information must be encrypted while stored in the production database.
@@ -15,6 +15,8 @@ Nowadays, students may have little time to use DataMan in certain circumstances.
 - The application must support the browsers approved by the organization.
 - The weekly correction summary must load within three seconds under normal operating conditions.
 - Search results must display within two seconds under normal operating conditions.
+
+Maintenance of keeping loading speeds stable is very important when it comes to users interacting with DataMan. When it came to the original DataMan, the answers always came quickly, so the website should be maintained to work the same as the original did. 
 
 
 # Requirements that are Not Ready
