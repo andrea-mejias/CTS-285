@@ -16,7 +16,7 @@ Nowadays, students may have little time to use DataMan in certain circumstances.
 - The weekly correction summary must load within three seconds under normal operating conditions.
 - Search results must display within two seconds under normal operating conditions.
 
-Maintenance of keeping loading speeds stable is very important when it comes to users interacting with DataMan. When it came to the original DataMan, the answers always came quickly, so the website should be maintained to work the same as the original did. 
+Maintenance of keeping loading speeds stable is very important when it comes to users interacting with DataMan. When it came to the original DataMan, the answers always came quickly, so the website should be maintained to work the same as the original did. We have to use efficient applications that can run the website as fast as DataMan did. Although these are non-functional requirements, they are needed to be known in order to build on with the website.
 
 
 # Requirements that are Not Ready
