@@ -8,8 +8,7 @@ This backlog uses these files from my repository:
 - `docs/requirements.md`
 - `docs/decisions/m3-backlog-triage-record.md`
 - `docs/decisions/m3-product-owner-decision-record.md`
-[If you revised `docs/requirements.md` after Module 2, state that here in one
-sentence.]
+requirements.md has been revised to fit with all records and backlogs.
 ## Priority Order
 List every story ID from highest priority to lowest. The story blocks below must
 appear in this same order.
@@ -20,8 +19,7 @@ appear in this same order.
 ## Stories
 <!-- Copy one story block for each story. Do not change the field labels. -->
 ### US-01 — [Short title]
-**Requirement ID:** [FR-__ or NFR-__ from `docs/requirements.md`. If the story
-traces to more than one requirement, list each ID.]
+**Requirement ID:** [FR-01 from `docs/requirements.md`]
 **User Story:** As a [user or role], I want [capability or outcome] so that [value
 or reason].
 **Acceptance Criteria:**
