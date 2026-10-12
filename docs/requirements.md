@@ -1,37 +1,88 @@
-# Functional Requirements
-- DataMan must preserve in-progress record information when a user's session is interrupted.
-- DataMan must allow an authorized employee to create a new customer record.
-- DataMan must allow users to search for a customer by customer ID.
-- DataMan must allow an auditor to review the change history for a record.
-- DataMan must allow an authorized employee to update a customer's mailing address.
-- DataMan must allow Priya to generate a weekly correction summary.
+# DataMan Requirements Register
 
-Nowadays, students may have little time to use DataMan in certain circumstances. It is important that the session's information is recorded if the session is interrupted. Otherwise, a user will not remember what they once inputted on DataMan and cannot navigate any log page to find their previous actions. The Memory Bank was a feature that was implemented into the original DataMan, which enabled users to look through problems they got correct. There was only a storage limit of six problems due to hardware limitations stated on the manual section, but when DataMan is implemented onto a website, the open storage is larger in this day and age. When using Priya, it must be used ethically and checked for any mistakes along the run.
+## Project Context
 
-# Non-Functional Requirements
-- Customer information must be encrypted while stored in the production database.
-- Only authorized managers may delete customer records.
-- The system must be available from 7:00 a.m. to 7:00 p.m. Monday through Friday except during scheduled maintenance.
-- The application must support the browsers approved by the organization.
-- The weekly correction summary must load within three seconds under normal operating conditions.
-- Search results must display within two seconds under normal operating conditions.
+Our goal is to do a modernized DataMan on a website based on the 1977 DataMan made by Texas Instruments, used by many kids for educational purposes worldwide. The primary users expected to use this modernized DataMan are students from grades K-12. This project will solve any hardware conflicts and fix any setbacks that came from using the 1977 DataMan, while catering to students in this modern era of technology.
 
-Maintenance of keeping loading speeds stable is very important when it comes to users interacting with DataMan. When it came to the original DataMan, the answers always came quickly, so the website should be maintained to work the same as the original did. We have to use efficient applications that can run the website as fast as DataMan did. Although these are non-functional requirements, they are needed to be known in order to build on with the website. Customers being given the option to delete their own records would lead to possible deletion accidents, but would not really be a requirement as some users can be responsible of what actions they do with their records.
+## Evidence Notes
 
+- **E-01 — Source:** 4th Grade Teacher Interview on Students’ Use of the 1977 DataMan
+  **Evidence:** When interviewing a fourth-grade teacher about how her students are not enjoying DataMan as expected, looking at the 1977 manual shows that there was a gap within the learning process. Observing how students used the Answer Checker on DataMan gave more of an answer. The Answer Checker manual section states that there is a three-attempt limit before getting the correct answer, and yet the learners are not told visually on where they are in the attempt sequence. Students could not tell whether they were wrong or had run out of attempts. The students are working against the main goal which is to keep a learner practicing rather than disengaging. 
 
-# Requirements that are Not Ready
-- The whole system needs to be faster.
-- The system should look more modern.
-- DataMan should use AI to fix mistakes.
-- Put a large green Save button at the top of every page.
-- DataMan needs to be easier.
-- Make search better.
+- **E-02 — Source:** 1977 DataMan manual, “Hints for Parents and Teachers” (p. 19) and “Please Try Me Out” (p. 3)  
+  **Evidence:** Feedback is given through flashing lights for right answers, “EEE” with blinking lights for wrong answers, and a “light show” reward after a user succeeds with a session. The manual states that these are intended to motivate users positively in using the 1977 DataMan. The feedback relies on visual displays, with no textual explanation of what message is being given.
 
-All of these are very vague and do not give light to any development options whatsoever. These would be useful as small ideas but would not parse through as eligible notes for development unless there is more context added to the requirements. AI is expected to be used in DataMan but there needs to be specifics on how it will be managed, as many misuse AI for the wrong reasons. The requirement of DataMan needing to be easier is not compatible as it states in both the story and manual sections that DataMan is meant to be fun for kids to use, which makes it easier along the run. Learning through each attempt makes using DataMan less tedious. The system is already running faster and is efficient in the original DataMan, which makes the vague requirement of the system needing to be faster invalid. The website will be just as fast as the original DataMan.
+- **E-03 — Source:** 1977 DataMan manual, “Memory Bank” (pp. 4, 21) 
+  **Evidence:** A user of the 1977 DataMan can store up to ten custom problems using the Memory Bank key. Due to hardware limitations, the storage for storing previous problems is low. The manual describes this as a head start for practice sets and activities that teach users how to improve at certain problems they struggle with. The web version can vastly enhance the storage limitations of DataMan and give more space for users to receive more help in any other variety of problems they may encounter.
 
-# Proposed Solutions
-- The system must show the learner how many attempts remain on the current problem before it reveals the correct answer.
-- Feedback after an incorrect answer must be available through keyboard navigation and must not rely on color alone.
+- **E-04 — Source:** 1977 DataMan manual, “Appendix” (p. 24) and Power Saver Feature (p. 19)
+  **Evidence:** The 1977 DataMan depends on a nine-volt battery that lasts about fifteen hours for use. A dim display, erratic display, or unresponsive keys signal that the battery must be replaced. The device itself powers off for power-saving purposes after about five minutes staying idle, if the Power Saver Feature is enabled. Any broken units of DataMan would have to be mailed and insured to a service facility for fixing or be exchanged at an exchange center if there are no facilities available to fix the issue. The website version aims to remove these hardware conflicts thanks to advancing modern technology today.
 
-When interviewing a fourth-grade teacher about how her students are not enjoying DataMan as expected, looking at the 1977 manual shows that there was a gap within the learning process. Along with interviewing the teacher and observing how students used the Answer Checker on DataMan, it gave more of an answer. The Answer Checker manual section states that there is a three-attempt limit before getting the correct answer, and yet the learners are not told visually on where they are in the attempt sequence. Students could not tell whether they were wrong or had run out of attempts. The students are working against the main goal which is to keep a learner practicing rather that disengaging. Therefore, this is a feedback requirement.
-According to the observation on how students are operating with DataMan, students have not figured out if they ran out of attempts or they got the question wrong. Feedback is critical in helping students learn when doing math and if they do not see the feedback, they will not learn how to do the next tries in a better view. Although this is non-functional, it is needed for some who struggle with registering visual cues.
+## Functional Requirements
+
+### FR-01
+**Requirement:** The system must show the learner how many attempts remain on the current problem before it reveals the correct answer.
+**Source/Rationale:** E-01 and manual pp. 3, 20
+Learners could not tell whether they were wrong or out of attempts, which works against keeping them practicing with DataMan.
+
+### FR-02
+**Requirement:** The system must show feedback after an incorrect through keyboard navigation and must not rely on color alone.
+**Source/Rationale:** E-02 and Manual pp. 19–20
+The 1977 DataMan gives right and/or wrong feedback through light patterns and “EEE” only, which does not explain the results to some users.
+
+### FR-03
+**Requirement:** The system must check a learner’s answer to a problem, report whether it is correct, and keep a running score of right answers out of problems tried.
+**Source/Rationale:** E-01; manual pp. 2, 3, 20
+Answer checking and score keeping are the core features of Answer Checker in the 1977 DataMan. The other requirements such as attempt count, feedback, and custom problem sets all depend on it.
+
+### FR-04
+**Requirement:** The system must allow an authorized user to create a custom set of practice problems for a learner to work through that set.
+**Source/Rationale:** E-03 and manual pp. 4, 21 (Memory Bank)
+Teachers and parents are identified stakeholder groups, and the original limits of problem sets go up to ten problems entered key by key.
+
+## Non-Functional Requirements
+
+Write at least three non-functional requirements. Each requirement should describe a measurable quality, constraint, or condition the system must satisfy.
+
+### NFR-01
+**Requirement:** The system must be available from 7:00 a.m. to 7:00 p.m. Monday through Friday except during scheduled maintenance.
+**Source/Rationale:** E-04; E-01; project constraint to be confirmed (Q-04)
+The 1977 DataMan was often unavailable due to running on batteries, shutting off automatically, and being broken easily in which they had to be mailed out for repairs. Scheduled availability removes the tedious work of handling hardware problems as the time window verifies uptime for the new DataMan. This would be classified as school-use time.
+
+### NFR-02
+**Requirement:** The system must encrypt customer information while stored in the production database.
+**Source/Rationale:** E-03 Project constraint;
+The 1977 DataMan never stored personal information in its Memory Bank, only storing up to ten problems. The new DataMan being a web version will store more information, hence why some of that information must be protected from being used for unethical purposes. What’s important is that child-privacy rules should be instated for protection of users using DataMan.
+
+### NFR-03
+**Requirement:** The system must display search results within two seconds under normal operating conditions.  
+**Source/Rationale:** E-02; E-03; project constraint to be confirmed (Q-03)
+The 1977 DataMan reacts to answers immediately and is built around timed, speed-focused practice, so slow responses would hurt the experience. With larger storage than the Memory Bank, users will need to find the saved problem sets. The two-second limit can be verified later with response-time testing. What counts as a “search result” in DataMan is yet to be determined.
+
+## Open Questions / Assumptions
+
+Do not turn an unsupported idea into a confirmed requirement. Record unresolved items here until evidence supports a decision.
+
+- **Q-01:** What does customer information and search results mean for DataMan?
+- **Q-02:** What other activities from the 1977 DataMan will be covered?
+- **Q-03:** Will there be more difficulties with the web version of DataMan that could differ from the original?
+
+## Final Quality Check
+
+Before submitting, confirm that each requirement is:
+
+- [ ] Clear enough for another team member to interpret consistently.
+- [ ] Supported by evidence, a stakeholder need, or a confirmed project constraint.
+- [ ] Testable or verifiable later.
+- [ ] Solution-neutral enough for this stage of the project.
+- [ ] Focused on one main capability or quality.
+- [ ] Classified correctly as functional or non-functional.
+
+Also confirm:
+
+- [ ] At least four functional requirements are included.
+- [ ] At least three non-functional requirements are included.
+- [ ] Every confirmed requirement has a source/rationale.
+- [ ] Open questions and assumptions are separated from confirmed requirements.
+- [ ] The simulation decision record is saved at `docs/decisions/m2-elicitation-decision-record.md`.
+- [ ] This file is saved as `docs/requirements.md`, committed, and synced to GitHub.
