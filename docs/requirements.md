@@ -26,9 +26,8 @@ Our goal is to do a modernized DataMan on a website based on the 1977 DataMan ma
 Learners could not tell whether they were wrong or out of attempts, which works against keeping them practicing with DataMan.
 
 ### FR-02
-**Requirement:** The system must show feedback after an incorrect through keyboard navigation and must not rely on color alone.
-**Source/Rationale:** E-02 and Manual pp. 19–20
-The 1977 DataMan gives right and/or wrong feedback through light patterns and “EEE” only, which does not explain the results to some users.
+**Requirement:** 
+**Source/Rationale:** 
 
 ### FR-03
 **Requirement:** The system must check a learner’s answer to a problem, report whether it is correct, and keep a running score of right answers out of problems tried.
@@ -45,9 +44,9 @@ Teachers and parents are identified stakeholder groups, and the original limits 
 Write at least three non-functional requirements. Each requirement should describe a measurable quality, constraint, or condition the system must satisfy.
 
 ### NFR-01
-**Requirement:** The system must be available from 7:00 a.m. to 7:00 p.m. Monday through Friday except during scheduled maintenance.
-**Source/Rationale:** E-04; E-01; project constraint to be confirmed (Q-04)
-The 1977 DataMan was often unavailable due to running on batteries, shutting off automatically, and being broken easily in which they had to be mailed out for repairs. Scheduled availability removes the tedious work of handling hardware problems as the time window verifies uptime for the new DataMan. This would be classified as school-use time.
+**Requirement:** The system must show feedback after an incorrect through keyboard navigation and must not rely on color alone.
+**Source/Rationale:** E-02 and Manual pp. 19–20
+The 1977 DataMan gives right and/or wrong feedback through light patterns and “EEE” only, which does not explain the results to some users.
 
 ### NFR-02
 **Requirement:** The system must encrypt customer information while stored in the production database.
