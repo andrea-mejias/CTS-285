@@ -10,7 +10,7 @@ StudyTrack release planning under constrained capacity.
 - ST-04: Keyboard-accessible task entry (2 pts)
 
 **Why this release slice was defensible:**
-Most of the features have a high value and are core features for students to utilize. The features with medium value such as a weekly progress summary can also be of importance too but cannot go forward unless rules and expectation depending on that are settled.
+Most of the features have a high value and are core features for students to utilize. The features with medium value such as ST-05 can also be of importance too but cannot go forward unless rules and expectation depending on that are settled.
 
 **One intentional deferral and why:**
 One item that I deferred was the color theme item because it was unnecessary and would shift the main goal of the release to something that would not help them continue to the goal.
@@ -34,7 +34,7 @@ Capacity dropped from 13 to 10 points. Keyboard accessibility testing revealed t
 I removed the completion mark for study tasks and the missed task recovery due to its purpose not being critical and only for practice. There is no grading involved within the study idea and is for guiding students for future tests of said knowledge in the study tasks. If there was any grading or reflection, it would be for improvement and not an actual permanent grade on a record.
 
 **Tradeoff accepted:**
-I accepted the trade-off of the criteria needed for study tasks and went with a weekly progress summary as it will help the students more in improving their skills with studying. Since this project is only for studying, nothing critical must be given and only the accessibility fix is what should be handled currently.
+I accepted the trade-off of the criteria needed for study tasks and went with ST-05 as it will help the students more in improving their skills with studying. Since this project is only for studying, nothing critical must be given and only the accessibility fix is what should be handled currently.
 
 ## Transfer to DataMan
 Before finalizing your DataMan backlog, review whether any item is high value but not ready, depends on unresolved work, consumes disproportionate effort, or should move because it reduces risk or unlocks other work.
