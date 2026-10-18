@@ -1,27 +1,30 @@
 # DataMan Product Backlog
-> Replace every bracketed prompt with your own work. Delete the prompts, this note,
-and any unused story blocks before you submit.
-> Save this file as `docs/product-backlog.md`. Use that exact folder, file name,
-and lowercase spelling.
+Will revise soon.
 ## Sources
+
 This backlog uses these files from my repository:
 - `docs/requirements.md`
 - `docs/decisions/m3-backlog-triage-record.md`
 - `docs/decisions/m3-product-owner-decision-record.md`
 requirements.md has been revised to fit with all records and backlogs.
+
 ## Priority Order
+
 List every story ID from highest priority to lowest. The story blocks below must
 appear in this same order.
-1. [US-__]
+
+1. [US-01]
 2. [US-__]
 3. [US-__]
 4. [US-__]
+
 ## Stories
 <!-- Copy one story block for each story. Do not change the field labels. -->
-### US-01 — [Short title]
-**Requirement ID:** [FR-01 from `docs/requirements.md`]
-**User Story:** As a [user or role], I want [capability or outcome] so that [value
-or reason].
+
+### US-01 — Feedback
+
+**Requirement ID:** FR-01
+**User Story:** As a learner, I want to receive feedback after submitting an answer so that I can know whether to continue or try again.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
 - [Write one line for each condition. Each line must state a result that another
@@ -30,12 +33,13 @@ person can see and check.]
 stories in this backlog, not to hours or days.]
 **Dependency / Constraint:** [The story, decision, or constraint that must exist
 first. Write "None" if there is none.]
-**Priority:** [Rank number from the Priority Order list.]
-**Readiness:** [Move Forward / Refine / Defer]
+**Priority:** 1
+**Readiness:** Move Forward
 **Priority Rationale:** [Why this rank is defensible. Name the factors you used:
 value, effort, dependency, risk, uncertainty, or stakeholder need.]
 ---
 ### US-02 — [Short title]
+
 **Requirement ID:** [FR-__ / NFR-__]
 **User Story:** As a [user or role], I want [capability or outcome] so that [value
 or reason].
@@ -50,16 +54,22 @@ or reason].
 <!-- A non-functional requirement (NFR) can become its own story. It can also
 become a constraint or an acceptance criterion on another story. If you use it as a
 constraint, put its ID in that story's Requirement ID field. -->
+
 ## Open Questions Carried Forward
+
 List each open question or assumption from `docs/requirements.md` that affects this
 backlog. Do not turn an unresolved question into a confirmed story.
+
 - **[Q-__]:** [Which story waits on this question, or why no story exists for it
 yet.]
+
 ## Revisions After Triage and Release Planning
+
 State what changed in this backlog because of your triage record and your Product
 Owner decision record.
 - [Story ID — what changed — which record caused the change.]
 - [If nothing changed, say so, and say why the original decision still holds.]
+
 ## Before You Submit
 - [ ] The file path is exactly `docs/product-backlog.md`.
 - [ ] All bracketed prompts and unused story blocks are deleted.
