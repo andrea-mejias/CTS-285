@@ -26,9 +26,10 @@ Our goal is to do a modernized DataMan on a website based on the 1977 DataMan ma
 Learners could not tell whether they were wrong or out of attempts, which works against keeping them practicing with DataMan.
 
 ### FR-02
-**Requirement:** The system must show feedback after an incorrect answer through keyboard navigation and must not rely on color alone.
+**Requirement:** The system shall provide a learner with feedback after an answer and allow another attempt after an incorrect answer.
 **Source/Rationale:** E-02; manual pp. 3, 19–20
-The 1977 DataMan gives right and/or wrong feedback through light patterns and “EEE” only, which does not explain the results to some users.
+The 1977 DataMan gives feedback through light patterns and “EEE” only, which does not explain the results to some users who learn textually and not visually.
+Learners only had two attempts in the 1977 DataMan and would have to start over after finishing each session.
 
 ### FR-03
 **Requirement:** The system must check a learner’s answer to a problem, report whether it is correct, and keep a running score of right answers out of problems tried.
