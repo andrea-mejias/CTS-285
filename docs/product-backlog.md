@@ -14,16 +14,16 @@ List every story ID from highest priority to lowest. The story blocks below must
 appear in this same order.
 
 1. [US-01]
-2. [US-__]
-3. [US-__]
-4. [US-__]
+2. [US-03]
+3. [US-02]
+4. [US-04]
 
 ## Stories
 <!-- Copy one story block for each story. Do not change the field labels. -->
 
 ### US-01 — Feedback
 
-**Requirement ID:** FR-01
+**Requirement ID:** [FR-01]
 **User Story:** As a learner, I want to receive feedback after submitting an answer so that I can know whether to continue or try again.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
@@ -33,23 +33,51 @@ person can see and check.]
 stories in this backlog, not to hours or days.]
 **Dependency / Constraint:** [The story, decision, or constraint that must exist
 first. Write "None" if there is none.]
-**Priority:** 1
+**Priority:** [1]
 **Readiness:** Move Forward
 **Priority Rationale:** [Why this rank is defensible. Name the factors you used:
 value, effort, dependency, risk, uncertainty, or stakeholder need.]
 ---
-### US-02 — [Short title]
+### US-02 — Retry Attempt
 
-**Requirement ID:** [FR-__ / NFR-__]
-**User Story:** As a [user or role], I want [capability or outcome] so that [value
-or reason].
+**Requirement ID:** [FR-02]
+**User Story:** As a learner, I want another attempt after an incorrect answer so that I can correct my work.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
 **Relative Effort:** [S / M / L] — [comparison]
 **Dependency / Constraint:** [dependency, constraint, or None]
-**Priority:** [rank]
+**Priority:** [3]
 **Readiness:** [Move Forward / Refine / Defer]
 **Priority Rationale:** [reason]
+
+### US-03 — [Short title]
+
+**Requirement ID:** [FR-04, NFR-02]
+**User Story:** As a parent/guardian, I want to create a set of custom practice problems so that I can correct my work.
+**Acceptance Criteria:**
+- Given [starting condition], when [action or event], then [observable result].
+**Relative Effort:** [S / M / L] — [comparison]
+**Dependency / Constraint:** [dependency, constraint, or None]
+**Priority:** [2]
+**Readiness:** [Move Forward / Refine / Defer]
+**Priority Rationale:** [reason]
+
+### US-04 — [Short title]
+
+**Requirement ID:** [NFR-01]
+**User Story:** As a developer, I want to show feedback after an incorrect answer through keyboard navigation so that users can understand withoyt relying on color alone.
+**Acceptance Criteria:**
+- Given [starting condition], when [action or event], then [observable result].
+- [Write one line for each condition. Each line must state a result that another
+person can see and check.]
+**Relative Effort:** [S / M / L] — [One sentence. Compare this story to the other
+stories in this backlog, not to hours or days.]
+**Dependency / Constraint:** [The story, decision, or constraint that must exist
+first. Write "None" if there is none.]
+**Priority:** [4]
+**Readiness:** [Move Forward / Refine / Defer]
+**Priority Rationale:** [Why this rank is defensible. Name the factors you used:
+value, effort, dependency, risk, uncertainty, or stakeholder need.]
 ---
 <!-- A non-functional requirement (NFR) can become its own story. It can also
 become a constraint or an acceptance criterion on another story. If you use it as a
