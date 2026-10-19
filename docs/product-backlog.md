@@ -1,5 +1,5 @@
 # DataMan Product Backlog
-Will revise soon.
+[WILL REVISE SOON]
 ## Sources
 
 This backlog uses these files from my repository:
@@ -21,7 +21,7 @@ appear in this same order.
 ## Stories
 <!-- Copy one story block for each story. Do not change the field labels. -->
 
-### US-01 — Feedback
+### US-01 — Gain Feedback
 
 **Requirement ID:** [FR-01]
 **User Story:** As a learner, I want to receive feedback after submitting an answer so that I can know whether to continue or try again.
@@ -38,7 +38,7 @@ first. Write "None" if there is none.]
 **Priority Rationale:** [Why this rank is defensible. Name the factors you used:
 value, effort, dependency, risk, uncertainty, or stakeholder need.]
 ---
-### US-02 — Retry Attempt
+### US-02 — Retry Attempts
 
 **Requirement ID:** [FR-02]
 **User Story:** As a learner, I want another attempt after an incorrect answer so that I can correct my work.
@@ -50,7 +50,7 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **Readiness:** [Move Forward / Refine / Defer]
 **Priority Rationale:** [reason]
 
-### US-03 — [Short title]
+### US-03 — Practice Sets
 
 **Requirement ID:** [FR-04, NFR-02]
 **User Story:** As a parent/guardian, I want to create a set of custom practice problems so that I can correct my work.
@@ -62,7 +62,7 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **Readiness:** [Move Forward / Refine / Defer]
 **Priority Rationale:** [reason]
 
-### US-04 — [Short title]
+### US-04 — Visual Feedback
 
 **Requirement ID:** [NFR-01]
 **User Story:** As a developer, I want to show feedback after an incorrect answer through keyboard navigation so that users can understand withoyt relying on color alone.
