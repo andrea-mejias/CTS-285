@@ -29,10 +29,8 @@ appear in this same order.
 - Given [starting condition], when [action or event], then [observable result].
 - [Write one line for each condition. Each line must state a result that another
 person can see and check.]
-**Relative Effort:** [S / M / L] — [One sentence. Compare this story to the other
-stories in this backlog, not to hours or days.]
-**Dependency / Constraint:** [The story, decision, or constraint that must exist
-first. Write "None" if there is none.]
+**Relative Effort:** [S / M / L] — Effort is medium compared to FR-02 in which the effort comes from the user alone.
+**Dependency / Constraint:** None.
 **Priority:** [1]
 **Readiness:** Move Forward
 **Priority Rationale:** [Why this rank is defensible. Name the factors you used:
