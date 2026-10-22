@@ -29,7 +29,7 @@ appear in this same order.
 - Given [starting condition], when [action or event], then [observable result].
 - [Write one line for each condition. Each line must state a result that another
 person can see and check.]
-**Relative Effort:** [S / M / L] — Effort is medium compared to FR-02 in which the effort comes from the user alone.
+**Relative Effort:** [S] — Effort is medium compared to FR-02 in which the effort comes from the user alone.
 **Dependency / Constraint:** None.
 **Priority:** [1]
 **Readiness:** Move Forward
@@ -42,8 +42,8 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **User Story:** As a learner, I want another attempt after an incorrect answer so that I can correct my work.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [S / M / L] — [comparison]
-**Dependency / Constraint:** [dependency, constraint, or None]
+**Relative Effort:** [S] — [comparison]
+**Dependency / Constraint:** [Answer-checking flow]
 **Priority:** [3]
 **Readiness:** [Move Forward / Refine / Defer]
 **Priority Rationale:** [reason]
@@ -54,8 +54,8 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **User Story:** As a parent/guardian, I want to create a set of custom practice problems so that I can correct my work.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [S / M / L] — [comparison]
-**Dependency / Constraint:** [dependency, constraint, or None]
+**Relative Effort:** [L] — [comparison]
+**Dependency / Constraint:** [Privacy matters and activity data]
 **Priority:** [2]
 **Readiness:** [Move Forward / Refine / Defer]
 **Priority Rationale:** [reason]
@@ -68,12 +68,10 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 - Given [starting condition], when [action or event], then [observable result].
 - [Write one line for each condition. Each line must state a result that another
 person can see and check.]
-**Relative Effort:** [S / M / L] — [One sentence. Compare this story to the other
-stories in this backlog, not to hours or days.]
-**Dependency / Constraint:** [The story, decision, or constraint that must exist
-first. Write "None" if there is none.]
+**Relative Effort:** [M] — [Effort is relatively medium as this is not required but will be necessary for users who learn in different ways.]
+**Dependency / Constraint:** None
 **Priority:** [4]
-**Readiness:** [Move Forward / Refine / Defer]
+**Readiness:** [Move Forward]
 **Priority Rationale:** [Why this rank is defensible. Name the factors you used:
 value, effort, dependency, risk, uncertainty, or stakeholder need.]
 ---
