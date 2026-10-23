@@ -42,10 +42,10 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **User Story:** As a learner, I want another attempt after an incorrect answer so that I can correct my work.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [S] — [comparison]
+**Relative Effort:** [S] — [Effort is relatively small compared to FR-01.]
 **Dependency / Constraint:** [Answer-checking flow]
 **Priority:** [3]
-**Readiness:** [Move Forward / Refine / Defer]
+**Readiness:** [Refine]
 **Priority Rationale:** [reason]
 
 ### US-03 — Practice Sets
@@ -57,7 +57,7 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **Relative Effort:** [L] — [comparison]
 **Dependency / Constraint:** [Privacy matters and activity data]
 **Priority:** [2]
-**Readiness:** [Move Forward / Refine / Defer]
+**Readiness:** [Refine]
 **Priority Rationale:** [reason]
 
 ### US-04 — Visual Feedback
