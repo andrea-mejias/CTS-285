@@ -1,99 +1,84 @@
 # DataMan Product Backlog
-[WILL REVISE SOON]
+
 ## Sources
 
 This backlog uses these files from my repository:
 - `docs/requirements.md`
 - `docs/decisions/m3-backlog-triage-record.md`
 - `docs/decisions/m3-product-owner-decision-record.md`
-- requirements.md has been revised to fit with all records and backlogs.
+- `requirements.md` has been revised to fit with all records and backlogs.
 
 ## Priority Order
 
-List every story ID from highest priority to lowest. The story blocks below must
-appear in this same order.
-
-1. [US-01]
-2. [US-03]
-3. [US-02]
-4. [US-04]
+1. US-01
+2. US-03
+3. US-02
+4. US-04
 
 ## Stories
-<!-- Copy one story block for each story. Do not change the field labels. -->
-
+---
 ### US-01 — Gain Feedback
 
-**Requirement ID:** [FR-01]
+**Requirement ID:** FR-01
 **User Story:** As a learner, I want to receive feedback after submitting an answer so that I can know whether to continue or try again.
 **Acceptance Criteria:**
-- Given [starting condition], when [action or event], then [observable result].
-- [Write one line for each condition. Each line must state a result that another
-person can see and check.]
-**Relative Effort:** [S] — Effort is medium compared to FR-02 in which the effort comes from the user alone.
+- Given learner completes a problem, when submitting an answer, then receives feedback before continuing or trying again.
+**Relative Effort:** S — Effort is medium compared to FR-02 in which the effort comes from the user alone.
 **Dependency / Constraint:** None.
-**Priority:** [1]
+**Priority:** 1
 **Readiness:** Move Forward
-**Priority Rationale:** [This rank is defensible because there are no risks within receiving feedback and will do a good impact for many users. No dependencies are in this requirement and with the priority being high, stakeholder needs can be met easily.]
+**Priority Rationale:** This rank is defensible because this is core criteria with no risks, capable of doing a good impact for many users. No dependencies are
+  in this requirement and with the priority being high, stakeholder needs can be met easily.
 ---
 ### US-02 — Retry Attempts
 
-**Requirement ID:** [FR-02]
+**Requirement ID:** FR-02
 **User Story:** As a learner, I want another attempt after an incorrect answer so that I can correct my work.
 **Acceptance Criteria:**
-- Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [S] — [Effort is relatively small compared to FR-01.]
-**Dependency / Constraint:** [Answer-checking flow]
-**Priority:** [3]
-**Readiness:** [Refine]
-**Priority Rationale:** [This rank needs refinement because this requirement has a dependency on the flow of answer checking.
-A possible constraint is related to the user of the device alone.]
+- Given learner completes a problem, when an incorrect answer is submitted, then another attempt is given so the user can correct their work.
+**Relative Effort:** S — Effort is relatively small compared to FR-01.
+**Dependency / Constraint:** Answer-checking flow
+**Priority:** 3
+**Readiness:** Refine
+**Priority Rationale:** This rank needs refinement because this requirement has a dependency on the flow of answer checking.
+A possible constraint is related to the user of the device alone.
 
 ### US-03 — Practice Sets
 
-**Requirement ID:** [FR-04, NFR-02]
+**Requirement ID:** FR-04, NFR-02
 **User Story:** As a parent/guardian, I want to create a set of custom practice problems so that I can correct my work.
 **Acceptance Criteria:**
-- Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [L] — [Effort is relatively large compared to NFR-02 as there are many dependencies that other roles must give effort in.]
-**Dependency / Constraint:** [Privacy matters and activity data]
-**Priority:** [2]
-**Readiness:** [Refine]
-**Priority Rationale:** [This rank needs refinement as privacy matters on data must be settled.
-  It is unknown on how the data will be managed and large effort also has to be given as well.]
+- Given a need to use help as feedback, when creating practice problems for one set, then practice problem sets are stored and used as feedback for a user to correct their work.
+**Relative Effort:** L — Effort is relatively large compared to NFR-02 as there are many dependencies that other roles must give effort in.
+**Dependency / Constraint:** Privacy matters and activity data
+**Priority:** 2
+**Readiness:** Defer
+**Priority Rationale:** This rank is deferred due to the session approach along with activity data not being ready.
+  It is unknown on how the data will be managed and large effort also has to be given as well.
 
 ### US-04 — Visual Feedback
 
-**Requirement ID:** [NFR-01]
+**Requirement ID:** NFR-01
 **User Story:** As a developer, I want to show feedback after an incorrect answer through keyboard navigation so that users can understand withoyt relying on color alone.
 **Acceptance Criteria:**
-- Given [starting condition], when [action or event], then [observable result].
-- [Write one line for each condition. Each line must state a result that another
-person can see and check.]
-**Relative Effort:** [M] — [Effort is relatively medium as this is not required but will be necessary for users who learn in different ways.]
+- Given a developer adds feedback for incorrect answers, when a user completes a problem, then shows feedback if the answer is incorrect through keyboard navigation.
+**Relative Effort:** M — Effort is relatively medium as this is not required but will be necessary for users who learn in different ways.
 **Dependency / Constraint:** None
-**Priority:** [4]
-**Readiness:** [Move Forward]
-**Priority Rationale:** [This rank is defensible because for learners who learn in different methods, it will help them move smoothly.
-  There has to be medium effort given due to the diversity of users but overall, no constraints or depencies are present.]
----
-<!-- A non-functional requirement (NFR) can become its own story. It can also
-become a constraint or an acceptance criterion on another story. If you use it as a
-constraint, put its ID in that story's Requirement ID field. -->
+**Priority:** 4
+**Readiness:** Move Forward
+**Priority Rationale:** This rank is defensible because for learners who learn in different methods, it will help them move smoothly.
+  There has to be medium effort given due to the diversity of users but overall, no constraints or depencies are present.
 
 ## Open Questions Carried Forward
 
-List each open question or assumption from `docs/requirements.md` that affects this
-backlog. Do not turn an unresolved question into a confirmed story.
-
-- **[Q-__]:** [Which story waits on this question, or why no story exists for it
-yet.]
+- **Q-02:** Other activities of DataMan are yet to be explored and do not have any stories yet due to unknown dependencies and possible constraints.
+- **Q-03:** The discovery of any difficulties within the modernized version of DataMan compared to the original does not have a story yet.
 
 ## Revisions After Triage and Release Planning
 
 State what changed in this backlog because of your triage record and your Product
 Owner decision record.
-- [Story ID — what changed — which record caused the change.]
-- [If nothing changed, say so, and say why the original decision still holds.]
+- US-03 — Defer — Due to the session approach not being ready, this story has to be deferred until further notice.
 
 ## Before You Submit
 - [ ] The file path is exactly `docs/product-backlog.md`.
