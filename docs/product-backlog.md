@@ -6,7 +6,7 @@ This backlog uses these files from my repository:
 - `docs/requirements.md`
 - `docs/decisions/m3-backlog-triage-record.md`
 - `docs/decisions/m3-product-owner-decision-record.md`
-requirements.md has been revised to fit with all records and backlogs.
+- requirements.md has been revised to fit with all records and backlogs.
 
 ## Priority Order
 
@@ -33,8 +33,7 @@ person can see and check.]
 **Dependency / Constraint:** None.
 **Priority:** [1]
 **Readiness:** Move Forward
-**Priority Rationale:** [Why this rank is defensible. Name the factors you used:
-value, effort, dependency, risk, uncertainty, or stakeholder need.]
+**Priority Rationale:** [This rank is defensible because there are no risks within receiving feedback and will do a good impact for many users. No dependencies are in this requirement and with the priority being high, stakeholder needs can be met easily.]
 ---
 ### US-02 — Retry Attempts
 
@@ -46,7 +45,8 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **Dependency / Constraint:** [Answer-checking flow]
 **Priority:** [3]
 **Readiness:** [Refine]
-**Priority Rationale:** [reason]
+**Priority Rationale:** [This rank needs refinement because this requirement has a dependency on the flow of answer checking.
+A possible constraint is related to the user of the device alone.]
 
 ### US-03 — Practice Sets
 
@@ -54,11 +54,12 @@ value, effort, dependency, risk, uncertainty, or stakeholder need.]
 **User Story:** As a parent/guardian, I want to create a set of custom practice problems so that I can correct my work.
 **Acceptance Criteria:**
 - Given [starting condition], when [action or event], then [observable result].
-**Relative Effort:** [L] — [comparison]
+**Relative Effort:** [L] — [Effort is relatively large compared to NFR-02 as there are many dependencies that other roles must give effort in.]
 **Dependency / Constraint:** [Privacy matters and activity data]
 **Priority:** [2]
 **Readiness:** [Refine]
-**Priority Rationale:** [reason]
+**Priority Rationale:** [This rank needs refinement as privacy matters on data must be settled.
+  It is unknown on how the data will be managed and large effort also has to be given as well.]
 
 ### US-04 — Visual Feedback
 
@@ -72,8 +73,8 @@ person can see and check.]
 **Dependency / Constraint:** None
 **Priority:** [4]
 **Readiness:** [Move Forward]
-**Priority Rationale:** [Why this rank is defensible. Name the factors you used:
-value, effort, dependency, risk, uncertainty, or stakeholder need.]
+**Priority Rationale:** [This rank is defensible because for learners who learn in different methods, it will help them move smoothly.
+  There has to be medium effort given due to the diversity of users but overall, no constraints or depencies are present.]
 ---
 <!-- A non-functional requirement (NFR) can become its own story. It can also
 become a constraint or an acceptance criterion on another story. If you use it as a
